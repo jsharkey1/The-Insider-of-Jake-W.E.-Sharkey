@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About | TNJWES</title>
+        <meta charset="utf-8">
+		<link rel="icon" type="logo/x-icon" href="assets/images/mE.jpg">
+        <!-- This is the About of My Website -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<audio id="audioplayer" autobuffer="" loop autoplay>
+			<source src="assets/audio/music.mp3" type="audio/mp3">
+			Your browser can't play it
+		</audio>
+		<script src="assets/js/scripts.js" async></script>
+        <script src="assets/js/form.js" async></script>
+    </head>
+    <body>
+		<button onclick="topFunction()" id="top" title="Go to the Top">Top</button>
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html"><img src="assets/images/mE.jpg" class="logo"></a>
+                <nav>
+                    <ul id="menuLists">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="family.html">Family</a></li>
+						<li><a href="friends.html">Friends</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+						<li><a onclick="darkmode()">Dark/Light Mode</a></li>
+                    </ul>
+                </nav>
+                <img src="assets/images/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+			<div class="row">
+                <div class="col-1">
+                    <h2>Jake W.E. Sharkey</h2>
+                    <h3>Who am I?</h3>
+                    <p>Find out Below!</p>
+				</div>
+                <div class="col-2">
+                    <img src="assets/images/j.jpg" alt="Jake W.E. Sharkey" class="frontpage">
+                    <div class="color-box"></div>
+                </div>
+			</div>
+			<div class="section-about">
+				<div class="bio">
+					<h2>Meet the Funniest Person</h2><br>
+					<p>Hi There! My name is Jake W.E. Sharkey, or just Jake, really. I am nothing more than the average person with an average life. Everything on this website, you'll know who and what I love most—spending time with friends and family and many projects I should sort out.</p>
+					<p>I was born in a suburban, urban area in the State of Connecticut of Fairfield County in the City of Stamford on August 14th, 2001. The family of four was complete now that I was there. You’ll get to know them in the family tab!</p>
+				</div>
+			</div>
+			<div class="contact">
+				<div class="newsletter">
+                    <h2>Contact Me!</h2><br>
+					<form name="contact" onsubmit="return validateForm()" accept-charset="UTF-8" action="formsucess.html" autocomplete="off" method="get" target="_blank">
+                        <label for="name">Name</label><br /> 
+                        <input name="name" type="text" required/><br /> 
+                        <label for="email">Email</label><br /> 
+                        <input name="email" type="email" required/><br />
+                        <label for="message">Message</label><br /> 
+                        <textarea cols="30" name="message" rows="5" required></textarea><br /> 
+                        <button class="button" role="button"><span class="text" type="submit" value="Submit">Submit</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <br>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@TheFlipgamer"><img src="assets/images/youtube.png"></a>
+            <a href="https://www.twitter.com/jwesharkey"><img src="assets/images/twitter.png"></a>
+            <a href="https://www.instagram.com/jwesharkey"><img src="assets/images/instagram.png"></a>
+        </div>
+    </footer>
+</html>
